@@ -5,10 +5,10 @@ Compiled toolchain for raspberry pi, using crosstools-ng 1.19.0
 
 Build was made with the following configurations of crosstools-ng-1.19.0:
 
-<h2>Paths & Misc:	</h2>
-Check "Try features marked as EXPERIMENTAL"	
-Set "Prefix directory" to whereever you want the finished toolchain to be placed	(e.g. /home/romanjoe/x-tools)
-Set "Number of parallel jobs" to be the number of processor cores in your system x1.5	6
+<h4>Paths & Misc:	</h4>
+* Check [b]Try features marked as EXPERIMENTAL[/b]	
+* Set [b]Prefix directory[/b] to whereever you want the finished toolchain to be placed	(e.g. /home/romanjoe/x-tools)
+* Set [b]Number of parallel jobs[/b] to be the number of processor cores in your system x1.5 -	[b]6[/b]
 Target options:	
 Set Target architecture	ARM
 Set "Endianness" to	Little endian
