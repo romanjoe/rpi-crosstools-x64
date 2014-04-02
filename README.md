@@ -7,8 +7,8 @@ Build was made with the following configurations of crosstools-ng-1.19.0. Build 
 
 <h4>Paths & Misc:	</h4>
 * Check <b>Try features marked as EXPERIMENTAL</b>	
-* Set <b>Prefix directory[/b] to whereever you want the finished toolchain to be placed	(e.g. /home/romanjoe/x-tools)
-* Set [b]Number of parallel jobs</b> to be the number of processor cores in your system x1.5 -	<b>6</b>
+* Set "Prefix directory" to whereever you want the finished toolchain to be placed	<b>(e.g. /home/romanjoe/x-tools)</b>
+* Set "Number of parallel jobs" to be the number of processor cores in your system x1.5 -	<b>6</b>
 
 <h4>Target options:</h4>	
 * Set "Target architecture"	<b>ARM</b>
