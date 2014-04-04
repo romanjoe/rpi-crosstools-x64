@@ -3,7 +3,7 @@ rpi-crosstools-x64
 
 Compiled toolchain for raspberry pi, using crosstools-ng 1.19.0. For <b>x64</b> linux system.
 
-Build was made with the following configurations of crosstools-ng-1.19.0. Build roadmap based on <a href = http://elinux.org/RPi_Linaro_GCC_Compilation</a> this manual
+Build was made with the following configurations of crosstools-ng-1.19.0. Build roadmap based on <a href = http://elinux.org/RPi_Linaro_GCC_Compilation> this manual</a>
 
 <h4>Paths & Misc:	</h4>
 * Check <b>Try features marked as EXPERIMENTAL</b>	
