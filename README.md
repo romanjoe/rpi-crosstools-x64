@@ -9,7 +9,7 @@ Build was made with the following configurations of crosstools-ng-1.19.0. Build 
 2. Extract tar archive into directory, for example /home/romanjoe/crosstool-ng-1.17.0
 3. Run command <b>./configure --prefix=/home/romanjoe/crosstool-ng-1.17.0</b>
 4. Run <b>make</b>, then <b>make install</b>
-5. Run PATH=$PATH:/home/romanjoe/crosstool-ng-1.17.0/bin
+5. Run <b>PATH=$PATH:/home/romanjoe/crosstool-ng-1.17.0/bin</b>
 6. Run <b>ct-ng menuconfig</b> and check the following options:
 
 <h4>Paths & Misc:	</h4>
