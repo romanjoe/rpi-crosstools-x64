@@ -5,6 +5,13 @@ Compiled toolchain for raspberry pi, using crosstools-ng 1.19.0. For <b>x64</b> 
 
 Build was made with the following configurations of crosstools-ng-1.19.0. Build roadmap based on <a href = http://elinux.org/RPi_Linaro_GCC_Compilation> this manual</a>
 
+1. Сrosstool-NG source <a href=http://crosstool-ng.org/download/crosstool-ng/crosstool-ng-1.19.0.tar.bz2>
+2. Extract tar archive into directory, for example /home/romanjoe/crosstool-ng-1.17.0
+3. Run command <b>./configure --prefix=/home/romanjoe/crosstool-ng-1.17.0</b>
+4. Run <b>make</b>, then <b>make install</b>
+5. Run PATH=$PATH:/home/romanjoe/crosstool-ng-1.17.0/bin
+6. Run <b>ct-ng menuconfig</b> and check the following options:
+
 <h4>Paths & Misc:	</h4>
 * Check <b>Try features marked as EXPERIMENTAL</b>	
 * Set "Prefix directory" to whereever you want the finished toolchain to be placed	<b>(e.g. /home/romanjoe/x-tools)</b>
@@ -43,3 +50,7 @@ Build was made with the following configurations of crosstools-ng-1.19.0. Build 
 <h4>C-library:</h4>	
 * Set "C library" to <b>eglibc</b>
 * Set "eglibc version" to <b>2_17</b>
+
+7. Make sure <b>subversion</b> is instaled, it need to download eglibc, while build.
+8. Run <b>ct-ng build</b> after configuration made.
+9. Register new compilator <b>PATH=$PATH:/home/romanjoe/x-tools/bin</b>
