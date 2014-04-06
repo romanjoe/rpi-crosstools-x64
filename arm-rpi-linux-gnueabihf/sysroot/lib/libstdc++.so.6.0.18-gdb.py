@@ -19,8 +19,8 @@ import gdb
 import os
 import os.path
 
-pythondir = '/home/romanjoe/x-tools/{CT_TARGET}/share/gcc-4.8.2/python'
-libdir = '/home/romanjoe/x-tools/{CT_TARGET}/arm-rpi-linux-gnueabihf/lib'
+pythondir = '/home/romanjoe/dev/x-tools-gdb-test/share/gcc-4.8.2/python'
+libdir = '/home/romanjoe/dev/x-tools-gdb-test/arm-rpi-linux-gnueabihf/lib'
 
 # This file might be loaded when there is no current objfile.  This
 # can happen if the user loads it manually.  In this case we don't

@@ -1,5 +1,5 @@
 /* Generated automatically by the program 'build/genpreds'
-   from the machine description file '/home/romanjoe/src/raspberrypi/staging/.build/src/gcc-linaro-4.8-2013.06-1/gcc/config/arm/arm.md'.  */
+   from the machine description file '/home/romanjoe/dev/ct-build/.build/src/gcc-linaro-4.8-2013.06-1/gcc/config/arm/arm.md'.  */
 
 #ifndef GCC_TM_PREDS_H
 #define GCC_TM_PREDS_H

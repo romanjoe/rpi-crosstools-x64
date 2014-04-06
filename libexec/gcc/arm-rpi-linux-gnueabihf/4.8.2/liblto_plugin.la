@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/romanjoe/x-tools/{CT_TARGET}/libexec/gcc/arm-rpi-linux-gnueabihf/4.8.2'
+libdir='/home/romanjoe/dev/x-tools-gdb-test/libexec/gcc/arm-rpi-linux-gnueabihf/4.8.2'

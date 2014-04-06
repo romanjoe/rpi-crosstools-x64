@@ -53,7 +53,7 @@ if [ x$1 != x ] ; then
   prefix=$1
   shift
 else
-  prefix=/home/romanjoe/x-tools/{CT_TARGET}
+  prefix=/home/romanjoe/dev/x-tools-gdb-test
 fi
 
 # Allow for alternate isysroot in which to find headers
