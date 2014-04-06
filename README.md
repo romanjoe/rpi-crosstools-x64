@@ -51,6 +51,15 @@ Build was made with the following configurations of crosstools-ng-1.19.0. Build 
 * Set "C library" to <b>eglibc</b>
 * Set "eglibc version" to <b>2_17</b>
 
-7. Make sure <b>subversion</b> is instaled, it need to download eglibc, while build.
-8. Run <b>ct-ng build</b> after configuration made.
-9. Register new compilator <b>PATH=$PATH:/home/romanjoe/x-tools/bin</b>
+<h4>Debug facilities</h4>
+* Check all boxes <b>"dmalloc, duma, gdb, ltrace, strace"</b>
+* For <b>gdb</b> check:<br>
+** Cross-gdb<br>
+** Enable python scripting<br>
+** gdbserver<br>
+** Build s static gdbserver
+** Show Linaro versions -> gdb version (linaro-7-6-2013.05)<br>
+
+Make sure <b>subversion</b> is instaled, it need to download eglibc, while build (sudo apt-get install subversion).<br><br>
+Run <b>ct-ng build</b> after configuration made.<br><br>
+Register new compilator <b>PATH=$PATH:/home/romanjoe/x-tools/bin</b>
